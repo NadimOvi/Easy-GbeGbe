@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity.FinishActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/review"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryRed"
+                    android:textSize="40dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item"
+                    android:layout_marginTop="10dp"
+                    android:layout_margin="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryRed" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewIdFinish"
+                    android:layout_margin="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/orderAddress"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryRed"/>
+                <TextView
+                    android:id="@+id/textAddressReview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="address"
+                    android:textSize="15dp"
+                    android:background="@color/colorBackground"
+                    android:maxLines="3"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorBlack"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noteAddress"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryRed"/>
+                <TextView
+                    android:id="@+id/textNoteReview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="note"
+                    android:maxLines="3"
+                    android:textSize="15dp"
+                    android:background="@color/colorBackground"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorBlack"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/reviewFinishButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/finish"
+                        android:textAllCaps="false"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/singup1"/>
+                    <Button
+                        android:id="@+id/reviewCancelButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cancelFinishActivity"
+                        android:textAllCaps="false"
+                        android:layout_marginLeft="15dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/singup1"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+            </LinearLayout>-->
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

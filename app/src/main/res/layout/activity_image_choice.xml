@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity.ImageChoiceActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/profiletextviewmsg"
+                    android:textStyle="bold"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="270dp"
+                    android:id="@+id/Image_view"
+                    android:layout_gravity="center"
+                    android:src="@drawable/shq"
+                    android:layout_margin="16sp" />
+                <Button
+                    android:id="@+id/uploadPicture"
+                    android:layout_gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/groupimage1"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/addText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/you_can_add_multiple_image_also"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"/>
+            <!--<fragment
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:id="@+id/map"
+                android:layout_marginTop="5dp"
+                android:layout_margin="10dp"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/usersConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:layout_gravity="center"
+                    android:text="@string/profileNextButton"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/signupblue"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

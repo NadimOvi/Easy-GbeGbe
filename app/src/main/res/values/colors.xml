@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryBackground">#0886c7</color>
+    <color name="colorAccent">#375290</color>
+    <color name="colorFormBackground">#e4e4e4</color>
+
+
+
+
+    <color name="colorLetterDark">#6F6E70</color>
+
+
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryRed">#EF1919</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBtn">#2988C9</color>
+    <color name="colorLight">#fff</color>
+    <color name="colorDark">#383636</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorAsh">#645F5F</color>
+    <color name="colorBlack">#070707</color>
+    <color name="colorBackLight">#E4DEDE</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="stickyBackground">#13131B</color>
+    <color name="stickySwitch">#1A61FF</color>
+
+
+
+</resources>

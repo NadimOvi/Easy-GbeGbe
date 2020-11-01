@@ -1,0 +1,270 @@
+{
+  "project_info": {
+    "project_number": "456163251975",
+    "firebase_url": "https://demoproduct-b5057.firebaseio.com",
+    "project_id": "demoproduct-b5057",
+    "storage_bucket": "demoproduct-b5057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456163251975:android:26c793b3cb83d6638997a2",
+        "android_client_info": {
+          "package_name": "com.nadim.chmarax.logregform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456163251975-fv1d4g9v6loo1usk0djp7qm6agom4ect.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nadim.chmarax.logregform",
+            "certificate_hash": "4c30a1842eb383cc81a3747fa39145397d342638"
+          }
+        },
+        {
+          "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ooBooBwPaGbPPkeN_CEzOeuA2DRlues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456163251975:android:f8b29473e8f2c9788997a2",
+        "android_client_info": {
+          "package_name": "com.nadim.demoproduct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456163251975-fp893uuqi33co3vvc477t0dhn9uvk3dg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nadim.demoproduct",
+            "certificate_hash": "4c30a1842eb383cc81a3747fa39145397d342638"
+          }
+        },
+        {
+          "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ooBooBwPaGbPPkeN_CEzOeuA2DRlues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456163251975:android:e78ff91830f786e48997a2",
+        "android_client_info": {
+          "package_name": "com.nadim.finalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456163251975-qp908hfkdakmttkmqoua2blafmecvgnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nadim.finalapp",
+            "certificate_hash": "4c30a1842eb383cc81a3747fa39145397d342638"
+          }
+        },
+        {
+          "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ooBooBwPaGbPPkeN_CEzOeuA2DRlues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456163251975:android:3188c5ada42a88368997a2",
+        "android_client_info": {
+          "package_name": "com.nadim.gbe_gbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456163251975-29cg4qt7abjf7e1rb6li1bfs1nd9vv5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nadim.gbe_gbe",
+            "certificate_hash": "4c30a1842eb383cc81a3747fa39145397d342638"
+          }
+        },
+        {
+          "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ooBooBwPaGbPPkeN_CEzOeuA2DRlues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456163251975:android:8185876483c777398997a2",
+        "android_client_info": {
+          "package_name": "com.nadim.gbe_gbe_dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456163251975-56m72nlomuj4n376hmlr1tth1hn9tn39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nadim.gbe_gbe_dev",
+            "certificate_hash": "4c30a1842eb383cc81a3747fa39145397d342638"
+          }
+        },
+        {
+          "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ooBooBwPaGbPPkeN_CEzOeuA2DRlues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456163251975:android:c58721f499e3e8248997a2",
+        "android_client_info": {
+          "package_name": "com.nadim.gbe_gbe_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456163251975-k95jjcav921mcbdq6jfkhtg54ef78qc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nadim.gbe_gbe_final",
+            "certificate_hash": "4c30a1842eb383cc81a3747fa39145397d342638"
+          }
+        },
+        {
+          "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ooBooBwPaGbPPkeN_CEzOeuA2DRlues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456163251975:android:a20220fc854ffa088997a2",
+        "android_client_info": {
+          "package_name": "com.nadim.shiva.try1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456163251975-9ni9mtenbr2inj1sfnt7mel3943eh5tc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nadim.shiva.try1",
+            "certificate_hash": "4c30a1842eb383cc81a3747fa39145397d342638"
+          }
+        },
+        {
+          "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ooBooBwPaGbPPkeN_CEzOeuA2DRlues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456163251975-9qb5llk77shrqnm5efjbinf3madn6q4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

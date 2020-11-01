@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nadim.gbe_gbe_final">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".MainActivity.PopularListActivity"></activity>
+        <activity
+            android:name=".MainActivity.ProfileActivity"
+            android:label="@string/menu_bar"
+            android:theme="@style/ProfileDetails" />
+        <activity android:name=".MainActivity.UserProfileActivity" />
+        <activity android:name=".MainActivity.UserEditActivity" />
+        <activity
+            android:name=".MainActivity.FinishActivity"
+            android:label="@string/menu_bar"
+            android:theme="@style/ProfileDetails" />
+        <activity android:name=".OrderActivity.UserOrderViewActivity" />
+        <activity android:name=".MainActivity.MapActivity" />
+        <activity android:name=".MainActivity.ForgetPassword.ForgetSetPassword" />
+        <activity android:name=".MainActivity.ForgetPassword.ForgetVerifyOtpActivity" />
+        <activity android:name=".MainActivity.ForgetPassword.ForgetPasswordActivity" />
+        <activity android:name=".OrderActivity.ViewOrderActivity" />
+        <activity android:name=".OtpActivity.VerifyPhoneActivity" />
+        <activity
+            android:name=".MainActivity.MessageActivity"
+            android:label="@string/menu_bar"
+            android:theme="@style/ProfileDetails" />
+        <activity
+            android:name=".MainActivity.AddressActivity"
+            android:label="@string/menu_bar"
+            android:theme="@style/ProfileAddDetails" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".MainActivity.ImageChoiceActivity"
+            android:label="@string/menu_bar"
+            android:theme="@style/ProfileDetails" />
+        <activity android:name=".MainActivity.RegisterActivity" />
+        <activity android:name=".MainActivity.LoginActivity" />
+        <activity android:name=".MainActivity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.nadim.gbe_gbe_final.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+    </application>
+
+</manifest>

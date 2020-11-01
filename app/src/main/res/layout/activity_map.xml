@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity.MapActivity">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_ab"
+        tools:context="boommba.apps.prototype.draggablemapviewandroid.MapsActivity" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_marginLeft="5dp" />
+
+        <SearchView
+            android:id="@+id/search_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:elevation="5dp"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search" />
+        <!--<LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <fragment
+                android:id="@+id/place_autocomplete_fragment"
+                android:name="com.google.android.libraries.places.compat.ui.PlaceAutocompleteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <com.skyfishjy.library.RippleBackground
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="200dp"
+            app:rb_color="#60003333"
+            app:rb_duration="3000"
+            app:rb_radius="15dp"
+            app:rb_rippleAmount="4"
+            app:rb_scale="2">
+            <ImageView
+                android:id="@+id/img_pin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/ic_pin_drop_black_24dp" />
+        </com.skyfishjy.library.RippleBackground>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_ab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <ProgressBar
+            android:id="@+id/pro_bar"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginBottom="5dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorPrimary"
+            android:outlineAmbientShadowColor="@color/stickyBackground"
+            android:outlineSpotShadowColor="@color/colorBackLight" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yourlocation"
+                android:textColor="@color/colorDark" />
+            <!--<TextView
+                android:id="@+id/id_tv_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Change"
+                android:textColor="@color/colorDark"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true" />-->
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/dragg_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="10dp"
+            android:drawablePadding="10dp"
+            android:text="@string/loading"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/ic_bookmark_black_24dp" />
+        <TextView
+            android:id="@+id/timeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/distanceView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/ic_save_proceed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/singup1"
+            android:text="@string/save_and_proceed"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

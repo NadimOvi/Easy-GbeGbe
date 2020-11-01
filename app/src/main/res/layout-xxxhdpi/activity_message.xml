@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity.MessageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tnxmessage"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/messageActivitysecond"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/messagethird"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/messagefourth"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+            android:padding="2dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnBacktohome"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="@string/againorder"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/singup1"
+                android:onClick="btnHome" />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_marginLeft="20dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="@string/orderlistcheck"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="15dp"
+                android:background="@drawable/singup1"
+                android:onClick="btnExit"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
